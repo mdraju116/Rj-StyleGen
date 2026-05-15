@@ -24,11 +24,17 @@ export const checkout = async (req, res) => {
       currency: "BDT",
       tran_id: transactionId,
 
-      success_url: "http://localhost:5173/payment-success",
-      fail_url: "http://localhost:5173/payment-fail",
-      cancel_url: "http://localhost:5173/payment-cancel",
+      success_url:
+        'https://rj-style-gen.vercel.app/payment-success',
 
-      ipn_url: "http://localhost:4000/api/checkout/ipn",
+      fail_url:
+        'https://rj-style-gen.vercel.app/payment-fail',
+
+      cancel_url:
+        'https://rj-style-gen.vercel.app/payment-cancel',
+
+      ipn_url:
+        'https://your-backend.onrender.com/api/checkout/ipn',
 
       shipping_method: "Courier",
       product_name: "StyleGen Products",
