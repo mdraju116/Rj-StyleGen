@@ -9,7 +9,7 @@ Rj StyleGen is a full-stack web application that helps users generate and explor
 ## 📸 Project Overview
 
 
-![Rj StyleGen Screenshot](./StyleGenFrontend/public/screenshot.png)
+![Rj StyleGen Screenshot](./screenshot.png)
 
 ## 🛠️ Technology Stack
 
