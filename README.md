@@ -1,4 +1,4 @@
-#  Rj StyleGen
+# 👕 Rj StyleGen
 
 Rj StyleGen is a full-stack web application that helps users generate and explore personalized style recommendations. The project is built with a modern React frontend and a Node.js/Express backend, with MongoDB used for data management.
 
